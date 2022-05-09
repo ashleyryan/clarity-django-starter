@@ -22,5 +22,5 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('admin/', admin.site.urls),
-    path('webpack/', TemplateView.as_view(template_name='webpack.html'))
+    path('cdn', TemplateView.as_view(template_name='cdn.html'))
 ]

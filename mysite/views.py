@@ -7,8 +7,8 @@ def index(request):
         'index.html',
     )
 
-def webpack(request):
+def cdn(request):
     return render(
         request,
-        'webpack.html',
+        'cdn.html',
     )
